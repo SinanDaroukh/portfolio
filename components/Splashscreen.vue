@@ -3,9 +3,9 @@ const value = 45;
 </script>
 
 <template>
-  <div class="flex flex-row w-screen h-screen">
+  <div class="flex flex-col lg:flex-row bg-black w-screen">
     <div
-      class="flex flex-col gap-5 bg-black w-7/12 items-end text-right justify-center pr-16 pl-64 text-white"
+      class="flex flex-col text-white gap-5 lg:w-12/12 items-end text-right justify-center px-8 py-10 lg:pr-16 lg:pl-32 lg:order-first"
     >
       <h1 class="font-museo font-extrabold text-5xl">Sinan DAROUKH</h1>
       <h2 class="text-3xl">Looking forward to become a Blockchain Engineer</h2>
@@ -55,8 +55,19 @@ const value = 45;
       </p>
     </div>
 
-    <div class="w-5/12">
-      <img class="h-screen object-cover" src="/img/me-background.webp" />
+    <div class="w-full lg:order-last lg:w-0/12 hidden lg:flex">
+      <img
+        class="object-scale-down lg:object-cover w-full lg:h-screen"
+        src="/img/me-background.webp"
+      />
+    </div>
+    <div class="w-full flex justify-center order-first lg:hidden py-8">
+      <div class="w-6/12 sm:w-4/12 px-4">
+        <img
+          src="/img/smol-me-avatar.webp"
+          class="shadow rounded-full max-w-full h-auto align-middle border-none object"
+        />
+      </div>
     </div>
   </div>
 </template>
