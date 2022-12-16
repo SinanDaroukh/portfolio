@@ -1,0 +1,14 @@
+{
+  "alt": {
+    "MeBackground": "Picture of Sinan DAROUKH",
+    "SmolMeBackground": "Profile picture of Sinan DAROUKH"
+  },
+  "hello": "hello { name }",
+  "sinan": "Sinan DAROUKH",
+  "Splashscreen": {
+    "Sinan": "Sinan DAROUKH",
+    "subtitles": "Looking forward to become a Blockchain Engineer",
+    "intro-1": "Freshly graduated from an engineering school in Computer Science and a also business school, I followed a training provided by the Interchain Developer Academy, in order to deepen my knowledge on the blockchain, but especially in order to start my professional career in this field.",
+    "intro-2": "Although I appreciate the Cosmos ecosystem, I do not close myself to possible opportunities concerning the development on other blockchains. I remain convinced that blockchain is tantamount to the future, and I would like to contribute to the development of this revolutionary technology."
+  }
+}
