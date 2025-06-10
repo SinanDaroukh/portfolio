@@ -2,6 +2,7 @@
 // import { defineNuxtConfig } from ;
 
 export default defineNuxtConfig({
+  compatibilityDate: '2025-06-11',
   modules: [
     "@nuxtjs/tailwindcss",
     [
@@ -11,12 +12,12 @@ export default defineNuxtConfig({
         locales: [
           {
             code: "en",
-            iso: "en-US",
+            language: "en-US",
             file: "en-US.json",
           },
           {
             code: "fr",
-            iso: "fr-FR",
+            language: "fr-FR",
             file: "fr-FR.json",
           },
         ],
@@ -26,6 +27,9 @@ export default defineNuxtConfig({
           useCookie: true,
           cookieKey: "i18n_redirected",
           redirectOn: "root", // recommended
+        },
+        bundle: {
+          optimizeTranslationDirective: false,
         },
       },
     ],
