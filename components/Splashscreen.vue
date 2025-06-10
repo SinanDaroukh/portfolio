@@ -1,4 +1,6 @@
 <script setup>
+import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
+
 const { t } = useI18n();
 const altMeBackground = t("alt.MeBackground");
 const altSmolMeBackground = t("alt.SmolMeBackground");
