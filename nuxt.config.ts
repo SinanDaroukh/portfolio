@@ -48,6 +48,12 @@ export default defineNuxtConfig({
     ],
   },
 
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
+  
   devtools: {
     timeline: {
       enabled: true,
