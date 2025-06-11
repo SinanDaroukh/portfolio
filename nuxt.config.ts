@@ -3,8 +3,10 @@
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-06-11',
+
   modules: [
     "@nuxtjs/tailwindcss",
+    "@nuxt/content",
     [
       "@nuxtjs/i18n",
       {
@@ -34,7 +36,9 @@ export default defineNuxtConfig({
       },
     ],
   ],
+
   css: ["@fortawesome/fontawesome-svg-core/styles.css"],
+
   build: {
     transpile: [
       "@fortawesome/vue-fontawesome",
@@ -42,5 +46,11 @@ export default defineNuxtConfig({
       "@fortawesome/free-brands-svg-icons",
       "@fortawesome/free-solid-svg-icons",
     ],
+  },
+
+  devtools: {
+    timeline: {
+      enabled: true,
+    },
   },
 });
