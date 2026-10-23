@@ -1,0 +1,5 @@
+# Keep the sitemap URL in sync with SITE_URL in nuxt.config.ts.
+User-agent: *
+Allow: /
+
+Sitemap: https://sinan.daroukh.fr/sitemap.xml

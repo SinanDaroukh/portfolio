@@ -1,0 +1,145 @@
+{
+  "lang": "fr",
+  "profile": {
+    "name": "Sinan DAROUKH",
+    "headline": "Ingénieur logiciel freelance · Conception logicielle augmentée par l’IA · Mobile, web, automatisation",
+    "summary": "Je suis ingénieur logiciel indépendant. Mon point fort, c’est l’analyse : comprendre un besoin, un système existant ou un problème technique, puis trouver la solution la plus juste.\nJ’interviens sur trois types de missions :\n🧭 Réfléchir : cadrage d’un projet, choix techniques, architecture, audit d’une application existante, rédaction de spécifications.\n🛠️ Développer : applications mobiles et web, de la conception à la mise en production.\n🔧 Maintenir et fiabiliser : reprise de code, correction de bugs, réduction de la dette technique et des vulnérabilités, automatisation et CI/CD.\nJe ne me limite pas à un langage. Les technologies sont des outils et, avec l’IA, je m’adapte à celles que demande le projet. Ce qui reste constant, c’est la rigueur de l’analyse et la qualité des choix techniques.\nMon parcours : 3 ans comme ingénieur logiciel chez Braincube (plateforme de données industrielles), puis la création de C9 Corp pour accompagner des startups et des PME. Dernière mission : la reprise de Booklink, une application sociale de lecture, migrée vers une base maintenable puis enrichie d’une vingtaine de fonctionnalités.\n📩 Un projet à lancer, une application à reprendre ou une question technique à trancher ? Écris-moi en message privé.",
+    "location": "Clermont-Ferrand et périphérie"
+  },
+  "positions": [
+    {
+      "id": "c9-corp-2026",
+      "company": "C9 Corp.",
+      "title": "Fondateur | Développeur",
+      "location": "",
+      "start": "2026",
+      "end": null,
+      "description": "J’accompagne startups, PME et équipes techniques sur leurs projets logiciels : cadrage et choix d’architecture, développement d’applications mobiles et web, reprise et maintenance d’applications existantes, automatisation et CI/CD. Mon approche part toujours de l’analyse du besoin avant le code. Missions au forfait ou en régie, en remote ou à Clermont-Ferrand."
+    },
+    {
+      "id": "booklink-2026",
+      "company": "Booklink",
+      "title": "Ingénieur logiciel",
+      "location": "Clermont-Ferrand, Auvergne-Rhône-Alpes, France",
+      "start": "2026",
+      "end": "2026",
+      "description": "Mission pour Booklink, application sociale de lecture (Flutter / Firebase) :\n- Reprise d'une application FlutterFlow et migration vers une base Flutter maintenable (routage typé, montée de version Flutter/Gradle/Kotlin)\n- Développement de fonctionnalités d'engagement : série de connexion quotidienne, tutoriel interactif, statistiques de lecture, parrainage\n- Développement de fonctionnalités sociales : abonnements entre lecteurs, profils privés, votes de prix littéraires, partage en story\n- Import de bibliothèques depuis Goodreads, Babelio et Gleeph\n- Refonte UI (onboarding, profil, navigation) et ajout du français québécois\n- Mise en place du plan de marquage Analytics, des feature flags et des règles de sécurité Firestore"
+    },
+    {
+      "id": "braincube-2023",
+      "company": "Braincube",
+      "title": "Ingénieur logiciel",
+      "location": "Issoire, Auvergne-Rhône-Alpes, France",
+      "start": "2023",
+      "end": "2026",
+      "description": "Développement et maintenance des applications Braincube, plateforme de données industrielles :\n- Développement de nouvelles fonctionnalités et correction de bugs\n- Rédaction de spécifications techniques et fonctionnelles\n- Réduction des vulnérabilités (CVE) existantes\n- Rédaction de documentation technique"
+    },
+    {
+      "id": "michelin-2021",
+      "company": "Michelin",
+      "title": "Chef de projet junior",
+      "location": "Clermont-Ferrand, Auvergne-Rhône-Alpes, France",
+      "start": "2021",
+      "end": "2022",
+      "description": "Gestion des projets visant à l'optimisation de la rentabilité du groupe Michelin :\n- Récolte des besoins et attentes des collaborateurs.\n- Modélisation et maquettage d'applications en adéquation avec les attentes des collaborateurs."
+    },
+    {
+      "id": "be-ys-cloud-2020",
+      "company": "be ys Cloud",
+      "title": "Développeur web",
+      "location": "Clermont-Ferrand, Auvergne-Rhône-Alpes, France",
+      "start": "2020",
+      "end": "2021",
+      "description": "Participation à la création d'un cloud français, souverain et sécurisé :\n- Développement d'un front-end pour un site vitrine/e-commerce\n- Développement de tests pour la gestion de VPS, du système de paiement et du CMS."
+    },
+    {
+      "id": "cern-2020",
+      "company": "CERN",
+      "title": "Ingénieur développeur WinCC-OA",
+      "location": "Meyrin, Genève, Suisse",
+      "start": "2020",
+      "end": "2020",
+      "description": "Réalisation d'une application visant à découvrir les limites du module web de WinCC-OA :\n- Extraction et visualisation des données d'expérience via le module web"
+    },
+    {
+      "id": "lightstart-apps-2018",
+      "company": "LightStart Apps",
+      "title": "Développeur Full Stack",
+      "location": "Leeds, Royaume-Uni",
+      "start": "2018",
+      "end": "2018",
+      "description": "Création d'une application visant à faciliter la prise de commande en café d'open-space :\n- Développement d'un front-end pour une application mobile cross-platforme.\n- Développement de la partie back-end pour la gestion des commandes."
+    },
+    {
+      "id": "universite-d-auvergne-2017",
+      "company": "Université d'Auvergne",
+      "title": "Étudiant enseignant",
+      "location": "Clermont-Ferrand et périphérie",
+      "start": "2017",
+      "end": "2017",
+      "description": "Aide à la compréhension de certains concepts chez les étudiants de 1ere année"
+    }
+  ],
+  "education": [
+    {
+      "id": "esc-clermont-business-school-2021",
+      "school": "ESC Clermont Business School",
+      "degree": "Master Management International, Business Intelligence & Management",
+      "start": "2021",
+      "end": "2022"
+    },
+    {
+      "id": "l-isima-clermont-ferrand-2018",
+      "school": "l'ISIMA Clermont-Ferrand",
+      "degree": "Diplôme d'ingénieur, Ingénierie informatique",
+      "start": "2018",
+      "end": "2021"
+    },
+    {
+      "id": "universite-d-auvergne-2016",
+      "school": "Université d'Auvergne",
+      "degree": "Diplôme Universitaire et Technologique (D.U.T.), Informatique",
+      "start": "2016",
+      "end": "2018"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "secnum-academie",
+      "name": "SecNum Académie",
+      "authority": ""
+    },
+    {
+      "id": "interchain-developer-academy-certification",
+      "name": "Interchain Developer Academy - Certification",
+      "authority": ""
+    },
+    {
+      "id": "toeic-915-990",
+      "name": "TOEIC 915/990",
+      "authority": ""
+    }
+  ],
+  "skills": [
+    "DevOps",
+    "Intégration continue et livraison continue (CI/CD)",
+    "Firebase"
+  ],
+  "languages": [
+    {
+      "id": "francais",
+      "name": "Français",
+      "proficiency": "native"
+    },
+    {
+      "id": "anglais",
+      "name": "Anglais",
+      "proficiency": "full"
+    },
+    {
+      "id": "espagnol",
+      "name": "Espagnol",
+      "proficiency": "professional"
+    }
+  ]
+}

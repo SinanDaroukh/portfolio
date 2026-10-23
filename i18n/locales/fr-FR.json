@@ -1,14 +1,97 @@
 {
+  "hello": "bonjour { name }",
+  "cv": {
+    "eyebrow": "Curriculum Vitæ · 2026",
+    "experience": "Expérience",
+    "education": "Formation",
+    "certifications": "Certifications",
+    "stack": "Compétences",
+    "languages": "Langues"
+  },
   "alt": {
-    "MeBackground": "Photo de Sinan DAROUKH",
     "SmolMeBackground": "Photo de profil de Sinan DAROUKH"
   },
-  "hello": "bonjour { name }",
-  "sinan": "Sinan DAROUKH",
-  "Splashscreen": {
-    "Sinan": "Sinan DAROUKH",
-    "subtitles": "Ingénieur Blockchain en devenir",
-    "intro-1": "Fraîchement diplômé d'une école d'ingénieur en informatique et d'une également d'une école de commerce, j'ai suivi une formation dispensée par l'Interchain Developer Academy, afin d'approfondir mes connaissances sur la blockchain, mais surtout afin de démarrer ma carrière professionnelle dans ce domaine.",
-    "intro-2": "Bien que j'apprécie l'écosystème Cosmos, je ne me ferme pas aux éventuelles opportunités concernant le développement sur d'autres blockchains. Je reste convaincu que la blockchain représente l'avenir, et je souhaite contribuer au développement de cette technologie révolutionnaire."
+  "nav": {
+    "toDark": "Passer au thème sombre",
+    "toLight": "Passer au thème clair"
+  },
+  "home": {
+    "hello": "Salut !",
+    "intro1": "Je suis ingénieur logiciel freelance à Clermont-Ferrand. Sous le nom de {c9}, j'accompagne startups, PME et équipes techniques sur leurs applications mobiles et web, de l'analyse du besoin à la mise en production.",
+    "intro2": "Diplômé de l'{isima} et de l'{esc}, j'ai commencé au {cern}, puis travaillé chez {beys}, {michelin} et pendant trois ans chez {braincube}. Dernière mission en date : la reprise de {booklink}, une application sociale de lecture. Concrètement, je peux :",
+    "can": {
+      "scope": "vous aider à y voir clair : cadrage, choix techniques, architecture, audit d'une application existante ;",
+      "build": "développer une application mobile ou web, de la conception à la mise en production ;",
+      "maintain": "reprendre un code qui a pris la poussière, le sécuriser et le remettre d'aplomb, automatisation et CI/CD comprises."
+    },
+    "intro3": "Je ne me limite pas à un langage : avec l'IA, je m'adapte aux technologies que demande le projet. Je travaille sur site ou à distance, en français, en anglais ou en espagnol. Et quand j'ai un truc à raconter, ça finit sur {blog}.",
+    "blog": "le blog",
+    "role": "Ingénieur logiciel freelance · C9 Corp",
+    "where": "Clermont-Ferrand",
+    "modes": "Sur site, remote ou hybride",
+    "pitch": "Un projet en tête ? Le plus simple, c'est d'en parler 30 minutes.",
+    "book": "Réserver un appel →",
+    "or": "ou me joindre sur {linkedin}",
+    "writing": "Écrits récents",
+    "legal": "Informations légales",
+    "legalNotice": "mentions légales"
+  },
+  "cats": {
+    "title": "Les chats de la maison",
+    "all": "Tous",
+    "both": "Coquelicot & Puff",
+    "coquelicot": {
+      "short": "Coquelicot",
+      "full": "Coquelicot de La Jonquille"
+    },
+    "puff": {
+      "short": "Puff",
+      "full": "Wolfgang Amademiaouss Mozzart, dit « Puff »"
+    },
+    "pet": "Caresser {name}",
+    "close": "Fermer",
+    "filter": "Choisir un chat",
+    "count": "{n} photos",
+    "back": "Toutes les photos",
+    "prev": "Photo précédente",
+    "next": "Photo suivante"
+  },
+  "seo": {
+    "home": {
+      "title": "Sinan Daroukh — Ingénieur logiciel freelance à Clermont-Ferrand",
+      "description": "Ingénieur logiciel freelance à Clermont-Ferrand : applications mobiles et web, reprise et maintenance de code, cadrage technique. Ex-CERN, Michelin, Braincube."
+    },
+    "cv": {
+      "title": "CV — Sinan Daroukh, ingénieur logiciel freelance",
+      "description": "Parcours de Sinan Daroukh : C9 Corp, Booklink, Braincube, Michelin, be ys Cloud, CERN. Ingénieur ISIMA, master ESC Clermont. Flutter, Firebase, CI/CD."
+    },
+    "articles": {
+      "title": "Articles — Sinan Daroukh",
+      "description": "Articles de Sinan Daroukh, ingénieur logiciel freelance : développement, architecture et maintenance d'applications mobiles et web."
+    },
+    "portfolio": {
+      "title": "Portfolio — Sinan Daroukh",
+      "description": "Projets de Sinan Daroukh, ingénieur logiciel freelance."
+    },
+    "articleSuffix": "Sinan Daroukh",
+    "jobTitle": "Ingénieur logiciel freelance"
+  },
+  "articles": {
+    "eyebrow": "Écrits · {n} article | Écrits · {n} article | Écrits · {n} articles",
+    "title": "Articles",
+    "lead": "Notes et retours d'expérience sur le développement logiciel : architecture, applications mobiles et web, maintenance. Publiés quand j'ai quelque chose qui vaut la peine d'être dit.",
+    "all": "Tous",
+    "filter": "Filtrer par thème",
+    "read": "Lire l'article",
+    "live": "En cours d'écriture",
+    "allArticles": "Tous les articles",
+    "back": "← Retour aux articles",
+    "authorRole": "Écrit depuis Clermont-Ferrand · FR · EN"
+  },
+  "error": {
+    "notFound": "Cette page n'existe pas (ou plus).",
+    "generic": "Quelque chose s'est mal passé.",
+    "back": "Retour à l'accueil",
+    "corners": "coin touché ! ×{n}"
   }
 }

@@ -1,0 +1,150 @@
+{
+  "profile.headline": {
+    "source": "Ingénieur logiciel freelance · Conception logicielle augmentée par l’IA · Mobile, web, automatisation",
+    "text": "Freelance software engineer · AI-augmented software design · Mobile, web, automation"
+  },
+  "profile.location": {
+    "source": "Clermont-Ferrand et périphérie",
+    "text": "Clermont-Ferrand area"
+  },
+  "positions.c9-corp-2026.title": {
+    "source": "Fondateur | Développeur",
+    "text": "Founder | Developer"
+  },
+  "positions.c9-corp-2026.description": {
+    "source": "J’accompagne startups, PME et équipes techniques sur leurs projets logiciels : cadrage et choix d’architecture, développement d’applications mobiles et web, reprise et maintenance d’applications existantes, automatisation et CI/CD. Mon approche part toujours de l’analyse du besoin avant le code. Missions au forfait ou en régie, en remote ou à Clermont-Ferrand.",
+    "text": "I support startups, SMEs and tech teams on their software projects: scoping and architecture choices, mobile and web app development, taking over and maintaining existing applications, automation and CI/CD. My approach always starts from analysing the need before writing code. Fixed-price or time-and-materials missions, remote or in Clermont-Ferrand."
+  },
+  "positions.booklink-2026.title": {
+    "source": "Ingénieur logiciel",
+    "text": "Software Engineer"
+  },
+  "positions.booklink-2026.location": {
+    "source": "Clermont-Ferrand, Auvergne-Rhône-Alpes, France",
+    "text": "Clermont-Ferrand, Auvergne-Rhône-Alpes, France"
+  },
+  "positions.booklink-2026.description": {
+    "source": "Mission pour Booklink, application sociale de lecture (Flutter / Firebase) :\n- Reprise d'une application FlutterFlow et migration vers une base Flutter maintenable (routage typé, montée de version Flutter/Gradle/Kotlin)\n- Développement de fonctionnalités d'engagement : série de connexion quotidienne, tutoriel interactif, statistiques de lecture, parrainage\n- Développement de fonctionnalités sociales : abonnements entre lecteurs, profils privés, votes de prix littéraires, partage en story\n- Import de bibliothèques depuis Goodreads, Babelio et Gleeph\n- Refonte UI (onboarding, profil, navigation) et ajout du français québécois\n- Mise en place du plan de marquage Analytics, des feature flags et des règles de sécurité Firestore",
+    "text": "Mission for Booklink, a social reading app (Flutter / Firebase):\n- Took over a FlutterFlow app and migrated it to a maintainable Flutter codebase (typed routing, Flutter/Gradle/Kotlin upgrades)\n- Built engagement features: daily login streak, interactive tutorial, reading stats, referrals\n- Built social features: following between readers, private profiles, literary award voting, story sharing\n- Library import from Goodreads, Babelio and Gleeph\n- UI redesign (onboarding, profile, navigation) and Québec French localisation\n- Set up the Analytics tracking plan, feature flags and Firestore security rules"
+  },
+  "positions.braincube-2023.title": {
+    "source": "Ingénieur logiciel",
+    "text": "Software Engineer"
+  },
+  "positions.braincube-2023.location": {
+    "source": "Issoire, Auvergne-Rhône-Alpes, France",
+    "text": "Issoire, Auvergne-Rhône-Alpes, France"
+  },
+  "positions.braincube-2023.description": {
+    "source": "Développement et maintenance des applications Braincube, plateforme de données industrielles :\n- Développement de nouvelles fonctionnalités et correction de bugs\n- Rédaction de spécifications techniques et fonctionnelles\n- Réduction des vulnérabilités (CVE) existantes\n- Rédaction de documentation technique",
+    "text": "Built and maintained the Braincube applications, an industrial data platform:\n- Built new features and fixed bugs\n- Wrote technical and functional specifications\n- Reduced existing vulnerabilities (CVEs)\n- Wrote technical documentation"
+  },
+  "positions.michelin-2021.title": {
+    "source": "Chef de projet junior",
+    "text": "Junior Project Manager"
+  },
+  "positions.michelin-2021.location": {
+    "source": "Clermont-Ferrand, Auvergne-Rhône-Alpes, France",
+    "text": "Clermont-Ferrand, Auvergne-Rhône-Alpes, France"
+  },
+  "positions.michelin-2021.description": {
+    "source": "Gestion des projets visant à l'optimisation de la rentabilité du groupe Michelin :\n- Récolte des besoins et attentes des collaborateurs.\n- Modélisation et maquettage d'applications en adéquation avec les attentes des collaborateurs.",
+    "text": "Managed projects aimed at improving the Michelin group's profitability:\n- Gathered employees' needs and expectations.\n- Modelled and prototyped applications matching employees' expectations."
+  },
+  "positions.be-ys-cloud-2020.title": {
+    "source": "Développeur web",
+    "text": "Web Developer"
+  },
+  "positions.be-ys-cloud-2020.location": {
+    "source": "Clermont-Ferrand, Auvergne-Rhône-Alpes, France",
+    "text": "Clermont-Ferrand, Auvergne-Rhône-Alpes, France"
+  },
+  "positions.be-ys-cloud-2020.description": {
+    "source": "Participation à la création d'un cloud français, souverain et sécurisé :\n- Développement d'un front-end pour un site vitrine/e-commerce\n- Développement de tests pour la gestion de VPS, du système de paiement et du CMS.",
+    "text": "Took part in building a French, sovereign and secure cloud:\n- Built the front-end of a showcase / e-commerce site\n- Wrote tests for VPS management, the payment system and the CMS."
+  },
+  "positions.cern-2020.title": {
+    "source": "Ingénieur développeur WinCC-OA",
+    "text": "WinCC-OA Developer Engineer"
+  },
+  "positions.cern-2020.location": {
+    "source": "Meyrin, Genève, Suisse",
+    "text": "Meyrin, Geneva, Switzerland"
+  },
+  "positions.cern-2020.description": {
+    "source": "Réalisation d'une application visant à découvrir les limites du module web de WinCC-OA :\n- Extraction et visualisation des données d'expérience via le module web",
+    "text": "Built an application exploring the limits of the WinCC-OA web module:\n- Extracted and visualised experiment data through the web module"
+  },
+  "positions.lightstart-apps-2018.title": {
+    "source": "Développeur Full Stack",
+    "text": "Full Stack Developer"
+  },
+  "positions.lightstart-apps-2018.location": {
+    "source": "Leeds, Royaume-Uni",
+    "text": "Leeds, United Kingdom"
+  },
+  "positions.lightstart-apps-2018.description": {
+    "source": "Création d'une application visant à faciliter la prise de commande en café d'open-space :\n- Développement d'un front-end pour une application mobile cross-platforme.\n- Développement de la partie back-end pour la gestion des commandes.",
+    "text": "Built an app making ordering at an open-space café easier:\n- Built the front-end of a cross-platform mobile app.\n- Built the back-end for order management."
+  },
+  "positions.universite-d-auvergne-2017.title": {
+    "source": "Étudiant enseignant",
+    "text": "Teaching Assistant"
+  },
+  "positions.universite-d-auvergne-2017.location": {
+    "source": "Clermont-Ferrand et périphérie",
+    "text": "Clermont-Ferrand area"
+  },
+  "positions.universite-d-auvergne-2017.description": {
+    "source": "Aide à la compréhension de certains concepts chez les étudiants de 1ere année",
+    "text": "Helped first-year students understand key concepts"
+  },
+  "education.esc-clermont-business-school-2021.degree": {
+    "source": "Master Management International, Business Intelligence & Management",
+    "text": "Master in International Management, Business Intelligence & Management"
+  },
+  "education.esc-clermont-business-school-2021.school": {
+    "source": "ESC Clermont Business School",
+    "text": "ESC Clermont Business School"
+  },
+  "education.l-isima-clermont-ferrand-2018.degree": {
+    "source": "Diplôme d'ingénieur, Ingénierie informatique",
+    "text": "Engineering degree, Computer Science"
+  },
+  "education.l-isima-clermont-ferrand-2018.school": {
+    "source": "l'ISIMA Clermont-Ferrand",
+    "text": "ISIMA, Clermont-Ferrand"
+  },
+  "education.universite-d-auvergne-2016.degree": {
+    "source": "Diplôme Universitaire et Technologique (D.U.T.), Informatique",
+    "text": "University Diploma of Technology (D.U.T.), Computer Science"
+  },
+  "education.universite-d-auvergne-2016.school": {
+    "source": "Université d'Auvergne",
+    "text": "Université d'Auvergne"
+  },
+  "skills.devops": {
+    "source": "DevOps",
+    "text": "DevOps"
+  },
+  "skills.integration-continue-et-livraison-continue-ci-cd": {
+    "source": "Intégration continue et livraison continue (CI/CD)",
+    "text": "Continuous integration and delivery (CI/CD)"
+  },
+  "skills.firebase": {
+    "source": "Firebase",
+    "text": "Firebase"
+  },
+  "languages.francais.name": {
+    "source": "Français",
+    "text": "French"
+  },
+  "languages.anglais.name": {
+    "source": "Anglais",
+    "text": "English"
+  },
+  "languages.espagnol.name": {
+    "source": "Espagnol",
+    "text": "Spanish"
+  }
+}

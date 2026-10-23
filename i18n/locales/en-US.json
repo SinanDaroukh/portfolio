@@ -1,14 +1,97 @@
 {
+  "hello": "hello { name }",
+  "cv": {
+    "eyebrow": "Curriculum Vitae · 2026",
+    "experience": "Experience",
+    "education": "Education",
+    "certifications": "Certifications",
+    "stack": "Stack",
+    "languages": "Languages"
+  },
   "alt": {
-    "MeBackground": "Picture of Sinan DAROUKH",
     "SmolMeBackground": "Profile picture of Sinan DAROUKH"
   },
-  "hello": "hello { name }",
-  "sinan": "Sinan DAROUKH",
-  "Splashscreen": {
-    "Sinan": "Sinan DAROUKH",
-    "subtitles": "Looking forward to become a Blockchain Engineer",
-    "intro-1": "Freshly graduated from an engineering school in Computer Science and a also business school, I followed a training provided by the Interchain Developer Academy, in order to deepen my knowledge on the blockchain, but especially in order to start my professional career in this field.",
-    "intro-2": "Although I appreciate the Cosmos ecosystem, I do not close myself to possible opportunities concerning the development on other blockchains. I remain convinced that blockchain is tantamount to the future, and I would like to contribute to the development of this revolutionary technology."
+  "nav": {
+    "toDark": "Switch to dark theme",
+    "toLight": "Switch to light theme"
+  },
+  "home": {
+    "hello": "Hi!",
+    "intro1": "I'm a freelance software engineer based in Clermont-Ferrand. As {c9}, I help startups, SMEs and tech teams with their mobile and web applications, from understanding the need to shipping to production.",
+    "intro2": "A graduate of {isima} and {esc}, I started out at {cern}, then worked at {beys}, {michelin} and for three years at {braincube}. Most recent mission: taking over {booklink}, a social reading app. In practice, I can:",
+    "can": {
+      "scope": "help you see clearly: scoping, technical choices, architecture, audits of existing applications;",
+      "build": "build a mobile or web application, from design to production;",
+      "maintain": "take over code that's been gathering dust, secure it and get it back in shape, automation and CI/CD included."
+    },
+    "intro3": "I'm not tied to one language: with AI, I adapt to whatever technologies the project calls for. I work on site or remotely, in French, English or Spanish. And when I have something to say, it ends up on {blog}.",
+    "blog": "the blog",
+    "role": "Freelance software engineer · C9 Corp",
+    "where": "Clermont-Ferrand",
+    "modes": "On-site, remote or hybrid",
+    "pitch": "Got a project in mind? The easiest way is a 30-minute chat.",
+    "book": "Book a call →",
+    "or": "or reach me on {linkedin}",
+    "writing": "Recent writing",
+    "legal": "Legal information",
+    "legalNotice": "legal notice"
+  },
+  "cats": {
+    "title": "The house cats",
+    "all": "All",
+    "both": "Coquelicot & Puff",
+    "coquelicot": {
+      "short": "Coquelicot",
+      "full": "Coquelicot de La Jonquille"
+    },
+    "puff": {
+      "short": "Puff",
+      "full": "Wolfgang Amademiaouss Mozzart, a.k.a. “Puff”"
+    },
+    "pet": "Pet {name}",
+    "close": "Close",
+    "filter": "Pick a cat",
+    "count": "{n} photos",
+    "back": "All photos",
+    "prev": "Previous photo",
+    "next": "Next photo"
+  },
+  "seo": {
+    "home": {
+      "title": "Sinan Daroukh — Freelance software engineer in Clermont-Ferrand",
+      "description": "Freelance software engineer in Clermont-Ferrand, France: mobile and web apps, taking over and maintaining code, technical scoping. Ex-CERN, Michelin, Braincube."
+    },
+    "cv": {
+      "title": "Résumé — Sinan Daroukh, freelance software engineer",
+      "description": "Sinan Daroukh's background: C9 Corp, Booklink, Braincube, Michelin, be ys Cloud, CERN. ISIMA engineer, ESC Clermont master's. Flutter, Firebase, CI/CD."
+    },
+    "articles": {
+      "title": "Articles — Sinan Daroukh",
+      "description": "Articles by Sinan Daroukh, freelance software engineer: building, architecting and maintaining mobile and web applications."
+    },
+    "portfolio": {
+      "title": "Portfolio — Sinan Daroukh",
+      "description": "Projects by Sinan Daroukh, freelance software engineer."
+    },
+    "articleSuffix": "Sinan Daroukh",
+    "jobTitle": "Freelance software engineer"
+  },
+  "articles": {
+    "eyebrow": "Writing · {n} post | Writing · {n} post | Writing · {n} posts",
+    "title": "Articles",
+    "lead": "Notes and lessons from building software: architecture, mobile and web apps, maintenance. Published when I have something worth saying.",
+    "all": "All",
+    "filter": "Filter by topic",
+    "read": "Read article",
+    "live": "Now writing",
+    "allArticles": "All articles",
+    "back": "← Back to articles",
+    "authorRole": "Writing from Clermont-Ferrand · EN · FR"
+  },
+  "error": {
+    "notFound": "This page doesn't exist (or no longer does).",
+    "generic": "Something went wrong.",
+    "back": "Back to the home page",
+    "corners": "corner hit! ×{n}"
   }
 }

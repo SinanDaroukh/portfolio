@@ -6,3 +6,13 @@ node_modules
 .output
 .env
 dist
+
+# Original cat photos (may contain GPS) — processed into app/assets/cats by `pnpm run cats`
+photos/
+
+# LinkedIn data export (personal data) — read by `pnpm run cv`
+linkedin/
+__pycache__/
+
+# Vercel (local builds / CLI link)
+.vercel

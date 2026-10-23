@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+/* C9 Corp design tokens + component styles load after Tailwind's preflight
+   (via nuxt.config `css`) so the brand's base element styles win. */
+
+@theme {
+  --font-museo: Museo Moderno, MuseoModerno, Museo, sans-serif;
+  --font-display: var(--c9-font-display);
+  --font-body: var(--c9-font-body);
+  --font-mono: var(--c9-font-mono);
+
+  --color-ink: var(--c9-ink);
+  --color-paper: var(--c9-paper);
+
+  --color-accent: var(--c9-accent);
+  --color-accent-hi: var(--c9-accent-hi);
+
+  --color-warn: var(--c9-warn);
+  --color-danger: var(--c9-danger);
+
+  --color-grey-15: var(--c9-grey-15);
+  --color-grey-30: var(--c9-grey-30);
+  --color-grey-50: var(--c9-grey-50);
+  --color-grey-70: var(--c9-grey-70);
+  --color-grey-85: var(--c9-grey-85);
+  --color-grey-95: var(--c9-grey-95);
+  --color-grey-05: var(--c9-grey-05);
+
+  --radius-c9: var(--c9-radius-md);
+  --radius-pill: var(--c9-radius-pill);
+
+  --shadow-ink: var(--c9-shadow-ink);
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}

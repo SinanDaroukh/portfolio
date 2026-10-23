@@ -1,0 +1,332 @@
+/* =====================================================================
+   C9 CORP — DESIGN TOKENS
+   Colors, typography, spacing, radii, shadows.
+   Imported from the C9 Corp Design System (claude.ai/design).
+   Use the CSS custom properties directly.
+   ===================================================================== */
+
+/* Google Fonts fallbacks — MuseoModerno variable build (weights the local
+   TTF doesn't cover), Schibsted Grotesk (reading face) and DM Mono.
+   Upright only (no italic axis). @import must precede all other rules. */
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=DM+Mono:wght@400;500&display=swap");
+
+/* --------------------------------------------------------------------
+   Fonts — MuseoModerno is the brand display face. Local TTF first.
+   Served from public/fonts/ (Nuxt static root → /fonts/).
+   -------------------------------------------------------------------- */
+@font-face {
+  font-family: "Museo Moderno";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/MuseoModerno-Regular.ttf") format("truetype");
+}
+/* Legacy alias — keeps the existing `font-museo` Tailwind utility working. */
+@font-face {
+  font-family: "Museo";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/MuseoModerno-Regular.ttf") format("truetype");
+}
+
+:root {
+  /* ================================================================
+     COLOR — Pure monochrome. C9 is a black & white identity.
+     "ink" = primary black, "paper" = primary white.
+     ================================================================ */
+  --c9-ink:        #000000;        /* primary brand black — bg of splashes, type on paper */
+  --c9-paper:      #FFFFFF;        /* primary brand white — type on ink, page bg in light mode */
+
+  /* Greyscale ramp — sparingly. C9 is not a grey brand. */
+  --c9-grey-95:    #0A0A0A;        /* near-black surface, used as raised card on ink */
+  --c9-grey-85:    #1A1A1A;        /* hover surface on ink bg */
+  --c9-grey-70:    #2E2E2E;        /* border on ink */
+  --c9-grey-50:    #6B6B6B;        /* muted body on either bg */
+  --c9-grey-30:    #B5B5B5;        /* divider on paper */
+  --c9-grey-15:    #E5E5E5;        /* subtle hairline on paper */
+  --c9-grey-05:    #F5F5F5;        /* hover surface on paper */
+
+  /* Accents — used in moderation. Mostly for inline links + selection. */
+  --c9-accent:     #6D28D9;        /* brand accent — violet, ≥ 4.5:1 under white text */
+  --c9-accent-hi:  #A78BFA;        /* hover variant */
+  --c9-on-accent:    var(--c9-paper);  /* text on an accent fill */
+  --c9-on-accent-hi: var(--c9-ink);    /* text on an accent-hi fill */
+  --c9-live:       #00E0A4;        /* the "live" green — reserved for status dots only */
+  --c9-warn:       #FFB400;        /* warn / draft state */
+  --c9-danger:     #FF3B30;        /* destructive / error */
+
+  /* Semantic — foreground / background tokens. Default theme is PAPER. */
+  --c9-bg:         var(--c9-paper);
+  --c9-bg-raised: var(--c9-grey-05);
+  --c9-fg:         var(--c9-ink);
+  --c9-fg-muted:   var(--c9-grey-50);
+  --c9-fg-on-ink:  var(--c9-paper);
+  --c9-border:     var(--c9-grey-15);
+  --c9-border-strong: var(--c9-ink);
+  --c9-link:       var(--c9-ink);
+  --c9-link-hover: var(--c9-accent);
+  --c9-selection-bg: var(--c9-ink);
+  --c9-selection-fg: var(--c9-paper);
+
+  /* Prose greys — the home page's quiet hierarchy (body < deep < fg). */
+  --c9-text:       #555555;        /* running text */
+  --c9-text-deep:  #222222;        /* names, list items */
+  --c9-text-muted: #707070;        /* labels, dates, nav — ≥ 4.5:1 on paper */
+  --c9-line:       rgba(125, 125, 125, 0.35); /* link underlines, dashed rules */
+  --c9-art:        rgba(0, 0, 0, 0.07);       /* decorative line art */
+
+  /* ================================================================
+     TYPE — Museo Moderno for display, Schibsted Grotesk for reading.
+     ================================================================ */
+  --c9-font-display: "Museo Moderno", "MuseoModerno", "Museo", system-ui, sans-serif;
+  --c9-font-body:    "Schibsted Grotesk", system-ui, sans-serif;
+  --c9-font-mono:    "DM Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Weight ladder */
+  --c9-w-thin:      200;
+  --c9-w-regular:   400;
+  --c9-w-medium:    500;
+  --c9-w-semibold:  600;
+  --c9-w-bold:      700;
+  --c9-w-extrabold: 800;
+  --c9-w-black:     900;
+
+  /* Scale — base size is 16px on web. */
+  --c9-text-xs:    12px;
+  --c9-text-sm:    14px;
+  --c9-text-md:    16px;
+  --c9-text-lg:    18px;
+  --c9-text-xl:    22px;
+  --c9-text-2xl:   28px;
+  --c9-text-3xl:   36px;
+  --c9-text-4xl:   48px;
+  --c9-text-5xl:   64px;
+  --c9-text-6xl:   88px;
+  --c9-text-7xl:   128px;
+
+  /* Line heights */
+  --c9-lh-tight:   1.05;
+  --c9-lh-snug:    1.2;
+  --c9-lh-normal:  1.5;
+  --c9-lh-relaxed: 1.65;
+
+  /* Letter spacing */
+  --c9-track-tight:  -0.02em;
+  --c9-track-normal: 0;
+  --c9-track-wide:   0.08em;
+  --c9-track-caps:   0.12em;
+
+  /* SPACING — 4px base, doubles after 16. */
+  --c9-space-0:   0;
+  --c9-space-1:   4px;
+  --c9-space-2:   8px;
+  --c9-space-3:   12px;
+  --c9-space-4:   16px;
+  --c9-space-5:   24px;
+  --c9-space-6:   32px;
+  --c9-space-7:   48px;
+  --c9-space-8:   64px;
+  --c9-space-9:   96px;
+  --c9-space-10: 128px;
+
+  /* RADII */
+  --c9-radius-none: 0;
+  --c9-radius-sm:   4px;
+  --c9-radius-md:   8px;
+  --c9-radius-lg:   16px;
+  --c9-radius-pill: 9999px;
+  --c9-radius-full: 50%;
+
+  /* BORDERS — 2px is the brand default. */
+  --c9-border-hair: 1px;
+  --c9-border-default: 2px;
+  --c9-border-thick: 3px;
+
+  /* SHADOWS — minimal. Borders + flat fills over depth. */
+  --c9-shadow-sm: 0 1px 2px rgba(0,0,0,0.06);
+  --c9-shadow-md: 0 4px 12px rgba(0,0,0,0.10);
+  --c9-shadow-lg: 0 12px 32px rgba(0,0,0,0.18);
+  --c9-shadow-ink: 6px 6px 0 var(--c9-ink);
+
+  /* MOTION */
+  --c9-ease:       cubic-bezier(0.4, 0, 0.2, 1);
+  --c9-ease-out:   cubic-bezier(0.16, 1, 0.3, 1);
+  --c9-dur-fast:   150ms;
+  --c9-dur-base:   300ms;
+  --c9-dur-slow:   500ms;
+
+  /* LAYOUT */
+  --c9-max-w-prose: 68ch;
+  --c9-max-w-page:  1280px;
+  --c9-rail:       128px;
+}
+
+/* Site-wide DARK theme. `html.dark` is set from the theme cookie (see
+   composables/useTheme.ts); with no saved choice, the OS preference applies
+   unless `html.light` forces light. Both blocks must stay identical. */
+html.dark {
+  color-scheme: dark;
+  --c9-bg:            #050505;
+  --c9-bg-raised:     #111111;
+  --c9-fg:            #FFFFFF;
+  --c9-fg-muted:      #A3A3A3;
+  --c9-border:        #2A2A2A;
+  --c9-border-strong: #FFFFFF;
+  --c9-link:          #FFFFFF;
+  --c9-accent:        #A78BFA;
+  --c9-accent-hi:     #C4B5FD;
+  --c9-on-accent:     #050505;
+  --c9-on-accent-hi:  #050505;
+  --c9-selection-bg:  #FFFFFF;
+  --c9-selection-fg:  #050505;
+  --c9-text:          #BBBBBB;
+  --c9-text-deep:     #DDDDDD;
+  --c9-text-muted:    #8A8A8A;
+  --c9-line:          rgba(125, 125, 125, 0.4);
+  --c9-art:           rgba(255, 255, 255, 0.07);
+}
+@media (prefers-color-scheme: dark) {
+  html:not(.light) {
+    color-scheme: dark;
+    --c9-bg:            #050505;
+    --c9-bg-raised:     #111111;
+    --c9-fg:            #FFFFFF;
+    --c9-fg-muted:      #A3A3A3;
+    --c9-border:        #2A2A2A;
+    --c9-border-strong: #FFFFFF;
+    --c9-link:          #FFFFFF;
+    --c9-accent:        #A78BFA;
+    --c9-accent-hi:     #C4B5FD;
+    --c9-on-accent:     #050505;
+    --c9-on-accent-hi:  #050505;
+    --c9-selection-bg:  #FFFFFF;
+    --c9-selection-fg:  #050505;
+    --c9-text:          #BBBBBB;
+    --c9-text-deep:     #DDDDDD;
+    --c9-text-muted:    #8A8A8A;
+    --c9-line:          rgba(125, 125, 125, 0.4);
+    --c9-art:           rgba(255, 255, 255, 0.07);
+  }
+}
+
+/* Dark / INK theme — apply with data-theme="ink". */
+[data-theme="ink"] {
+  --c9-bg:         var(--c9-ink);
+  --c9-bg-raised:  var(--c9-grey-95);
+  --c9-fg:         var(--c9-paper);
+  --c9-fg-muted:   var(--c9-grey-30);
+  --c9-fg-on-ink:  var(--c9-paper);
+  --c9-border:     var(--c9-grey-70);
+  --c9-border-strong: var(--c9-paper);
+  --c9-link:       var(--c9-paper);
+  --c9-link-hover: var(--c9-accent);
+}
+
+/* =====================================================================
+   SEMANTIC ELEMENTS — base defaults for raw HTML.
+   ===================================================================== */
+html, body {
+  background: var(--c9-bg);
+  color: var(--c9-fg);
+  font-family: var(--c9-font-body);
+  font-size: var(--c9-text-md);
+  line-height: var(--c9-lh-normal);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--c9-selection-bg); color: var(--c9-selection-fg); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--c9-font-display);
+  font-weight: var(--c9-w-extrabold);
+  line-height: var(--c9-lh-tight);
+  letter-spacing: var(--c9-track-tight);
+  margin: 0;
+  text-wrap: balance;
+}
+
+h1 { font-size: var(--c9-text-5xl); }
+h2 { font-size: var(--c9-text-3xl); }
+h3 { font-size: var(--c9-text-2xl); font-weight: var(--c9-w-bold); }
+h4 { font-size: var(--c9-text-xl); font-weight: var(--c9-w-bold); }
+h5 { font-size: var(--c9-text-lg); font-weight: var(--c9-w-semibold); letter-spacing: var(--c9-track-wide); text-transform: uppercase; }
+h6 { font-size: var(--c9-text-sm); font-weight: var(--c9-w-semibold); letter-spacing: var(--c9-track-caps); text-transform: uppercase; color: var(--c9-fg-muted); }
+
+p {
+  margin: 0;
+  line-height: var(--c9-lh-relaxed);
+  text-wrap: pretty;
+}
+
+p.lead, .c9-lead { font-style: normal; font-size: var(--c9-text-lg); }
+
+a {
+  color: var(--c9-link);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  transition: color var(--c9-dur-fast) var(--c9-ease);
+}
+a:hover { color: var(--c9-link-hover); }
+
+code, kbd, samp, pre {
+  font-family: var(--c9-font-mono);
+  font-size: 0.92em;
+}
+code { background: var(--c9-bg-raised); padding: 2px 6px; border-radius: var(--c9-radius-sm); }
+
+hr {
+  border: 0;
+  height: var(--c9-border-default);
+  background: var(--c9-fg);
+  width: 96px;
+  margin: var(--c9-space-5) 0;
+}
+
+/* =====================================================================
+   UTILITY CLASSES — the small set that recurs across the brand.
+   ===================================================================== */
+.c9-display {
+  font-family: var(--c9-font-display);
+  font-weight: var(--c9-w-extrabold);
+  font-size: var(--c9-text-5xl);
+  line-height: var(--c9-lh-tight);
+  letter-spacing: var(--c9-track-tight);
+}
+
+.c9-eyebrow {
+  font-family: var(--c9-font-display);
+  font-size: var(--c9-text-xs);
+  font-weight: var(--c9-w-bold);
+  letter-spacing: var(--c9-track-caps);
+  text-transform: uppercase;
+  color: var(--c9-fg-muted);
+}
+
+.c9-rule {
+  display: block;
+  width: 96px;
+  height: 4px;
+  background: currentColor;
+  border: 0;
+}
+
+.c9-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px; height: 44px;
+  border: var(--c9-border-default) solid currentColor;
+  border-radius: var(--c9-radius-md);
+  color: inherit;
+  background: transparent;
+  transition: transform var(--c9-dur-base) var(--c9-ease-out),
+              color    var(--c9-dur-fast) var(--c9-ease);
+  cursor: pointer;
+}
+.c9-icon-button.is-round { border-radius: var(--c9-radius-full); }
+.c9-icon-button:hover { transform: scale(1.1); }
+.c9-icon-button:active { transform: scale(0.96); }
