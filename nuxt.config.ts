@@ -21,6 +21,20 @@ export default defineNuxtConfig({
     },
   },
 
+  // Security headers on every response (pages and static files). Framing is
+  // limited to the site itself and Nuxt Studio's preview (X-Frame-Options
+  // can't allow a single outside domain, so frame-ancestors does it).
+  routeRules: {
+    "/**": {
+      headers: {
+        "X-Content-Type-Options": "nosniff",
+        "Content-Security-Policy": "frame-ancestors 'self' https://nuxt.studio https://*.nuxt.studio",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=()",
+      },
+    },
+  },
+
   // Build sitemap.xml as a static file (also covers `nuxt generate`).
   nitro: {
     prerender: { routes: ["/sitemap.xml"] },
